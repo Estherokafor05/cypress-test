@@ -11,8 +11,7 @@ describe("Assets page", () => {
 
   it("should verify that user can access asset page", () => {
     assets.getSpace("Your first space");
-    assets.getAssets();
-    assets.assertPage();
+    assets.getAsset();
   });
 
   it("should verify that user can upload assets", () => {
