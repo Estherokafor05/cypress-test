@@ -11,7 +11,8 @@ Make sure you've node js Installed
 2. CD into the folder with VS Code
 3. Open terminal to Install cypress: ```npm install cypress --save-dev```
 4. Open run test from terminal ```npm run scripts```
-5. Result would be generated in Mochawesome folder, mochawesome.html
+5. Result would be generated in Mochawesome folder, in an mochawesome.html format.
+
 
 # There were no issues at the time of this push
 
