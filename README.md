@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Storyblok cypress Test</h1>
+  <h1 align="center">cypress Test</h1>
 
 ## Installation
 
