@@ -10,13 +10,13 @@ describe("Assets page", () => {
   });
 
   it("should verify that user can access asset page", () => {
-    assets.getSpace("Your first space");
+    assets.getSpace("My Spaces");
     assets.getAsset();
   });
 
   it("should verify that user can upload assets", () => {
     cy.wait(5000);
-    assets.getAssetPage("Your first space");
+    assets.getAssetPage("My Spaces");
     assets.getUploadButton().should("contain.text", "Add Asset(s)");
     cy.fixture("IMG_8118.HEIC");
     cy.get(".upload-select").attachFile("IMG_8118.HEIC");

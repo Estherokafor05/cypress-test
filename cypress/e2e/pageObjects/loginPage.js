@@ -1,14 +1,14 @@
 class Login {
   getEmail() {
-    return cy.get("#user_email2");
+    return cy.get('[data-testid="login-email"]')
   }
 
   getPassword() {
-    return cy.get("#user_password2")
+    return cy.get('[data-testid="login-password"]')
   }
 
   getLoginBtn() {
-    return cy.get(".uk-button");
+    return cy.get('[data-testid="submit"]')
   }
   loginFunction(email, password) {
     this.getEmail().type(email);

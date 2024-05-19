@@ -9,7 +9,7 @@
   "author": "Esther Okafor",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^10.1.0",
+    "cypress": "^10.11.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-recurse": "^1.20.0",
     "cypress-wait-until": "^1.7.2",

@@ -1,6 +1,6 @@
 class Assets {
   getSpace(spacename) {
-    cy.get(".sidebar__linklist-inner--with-star > .sidebar__link")
+    cy.get('.sb-sidebar-link--active')
       .should("contain", spacename)
       .click();
     cy.wait(5000);
